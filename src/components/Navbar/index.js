@@ -25,17 +25,15 @@ const Navbar = () => {
   return (
     <Nav>
       <NavbarContainer>
-        <NavLogo to="/">
-          <a
-            style={{
-              display: "flex",
-              alignItems: "center",
-              color: "white",
-              marginBottom: "20;",
-              cursor: "pointer",
-            }}>
-            <DiCssdeck size="3rem" /> <Span>Portfolio</Span>
-          </a>
+        <NavLogo
+          to="/"
+          style={{
+            display: "flex",
+            alignItems: "center",
+            color: "white",
+            marginBottom: "20",
+          }}>
+          <DiCssdeck size="3rem" /> <Span>Portfolio</Span>
         </NavLogo>
         <MobileIcon>
           <FaBars
@@ -79,7 +77,7 @@ const Navbar = () => {
               }}>
               Projects
             </MobileLink>
-          
+
             <GitHubButton
               style={{
                 padding: "10px 16px",
