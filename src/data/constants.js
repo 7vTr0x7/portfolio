@@ -12,7 +12,7 @@ export const Bio = {
 export const experiences = [
   {
     id: 1,
-    img: "https://ibb.co/cL45jDx",
+    img: "https://i.ibb.co/m8fs36S/open.jpg",
     role: "Junior Developer",
     company: "Open Investment Group",
     date: "May 2023 - Apr 2024",
@@ -122,7 +122,7 @@ export const projects = [
     date: "Sep 2024 - Sep 2024",
     description:
       "A Twitter clone that replicates core functionalities such as posting, liking, commenting, following, and bookmarking. Developed a scalable social media platform with user profiles, real-time post interactions, and media upload support.",
-    image: "https://ibb.co/HgVPv4r",
+    image: "https://i.ibb.co/Lp8gwRC/Screenshot-2024-09-24-130718.png",
     tags: [
       "React Js",
       "Node Js",
@@ -142,7 +142,7 @@ export const projects = [
     date: "Aug 2024 - Aug 2024",
     description:
       "An e-commerce website designed to offer product browsing, shopping cart, and wishlist functionality. Implemented a full-stack solution with a focus on product management and a smooth user experience for adding products to the cart and managing orders.",
-    image: "https://ibb.co/Xz4FYNY",
+    image: "https://i.ibb.co/FBW8HNH/Screenshot-2024-09-24-130519.png",
     tags: [
       "React Js",
       "Node Js",
