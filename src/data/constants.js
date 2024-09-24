@@ -39,7 +39,7 @@ export const education = [
     img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/Kiit.jpeg?alt=media&token=3839d520-c59d-4341-ad8f-0980c98de4dd",
     collage: "savitribai phule pune university",
     date: "Oct 2021 - may 2024",
-
+    grade: 8.0,
     degree: "Bachelor of Computer Applications",
   },
 ];
@@ -50,7 +50,8 @@ export const skills = [
     skills: [
       {
         name: "React Js",
-        image: "data:image/svg+xml;base64,...",
+        image:
+          "https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg",
       },
       {
         name: "Redux",
@@ -59,7 +60,7 @@ export const skills = [
       },
       {
         name: "Next Js",
-        image: "data:image/png;base64,...",
+        image: "https://nextjs.org/static/favicon/favicon.ico",
       },
       {
         name: "HTML",
@@ -73,7 +74,7 @@ export const skills = [
       {
         name: "JavaScript",
         image:
-          "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/JavaScript-logo.png/800px-JavaScript-logo.png",
+          "https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png",
       },
       {
         name: "Bootstrap",
