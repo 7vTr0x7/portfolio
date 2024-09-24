@@ -20,8 +20,9 @@ const Projects = ({ openModal, setOpenModal }) => {
       <Wrapper>
         <Title>Projects</Title>
         <CardContainer>
-          {projects.map((project) => (
+          {projects.map((project, index) => (
             <ProjectCard
+              key={index}
               project={project}
               openModal={openModal}
               setOpenModal={setOpenModal}
